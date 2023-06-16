@@ -1,1 +1,1 @@
-hmmm hiyaaa kntlll
+docker run --name forceupdater -v /var/run/docker.sock:/var/run/docker.sock containrrr/watchtower --run-once && docker rm forceupdater
